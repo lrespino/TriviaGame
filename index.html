@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <title>TriviaGame</title>
+</head>
+<style>
+  
+</style>
+<body>
+<div class="container">
+    <div class="header">
+    <h1>Trivia Game </h1>
+    <button type="button btn-success" id="startGame">Start</button>
+    
+    
+    <p id="timer">Time Remaining:</p>
+        
+    
+        <div id="questions">
+        
+        <div class="questionOne">
+            <p>Question number one?</p>
+            <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input" value="cAnswer1">
+                    <label class="custom-control-label" for="customRadioInline1">correct answer</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input" value="wrong1">
+                    <label class="custom-control-label" for="customRadioInline2">wrong1</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input" value="wrong2">
+                    <label class="custom-control-label" for="customRadioInline3">wrong2</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline4" name="customRadioInline1" class="custom-control-input" value="wrong3">
+                    <label class="custom-control-label" for="customRadioInline4">wrong3</label>
+                </div>
+        <div class="questionTwo">
+            <p>Question number two?</p>
+            <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline5" name="customRadioInline2" class="custom-control-input" value="wrong1">
+                    <label class="custom-control-label" for="customRadioInline5">wrong1</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline6" name="customRadioInline2" class="custom-control-input" value="wrong2">
+                    <label class="custom-control-label" for="customRadioInline6">wrong2</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline7" name="customRadioInline2" class="custom-control-input" value="wrong3">
+                    <label class="custom-control-label" for="customRadioInline7">wrong3</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline8" name="customRadioInline2" class="custom-control-input" value="cAnswer2">
+                    <label class="custom-control-label" for="customRadioInline8">correct answer</label>
+                </div>
+        <div class="questionThree">
+            <p>Question number three?</p>
+            <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline9" name="customRadioInline3" class="custom-control-input" value="wrong1">
+                    <label class="custom-control-label" for="customRadioInline9">wrong1</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline10" name="customRadioInline3" class="custom-control-input" value="wrong2">
+                    <label class="custom-control-label" for="customRadioInline10">wrong2</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline11" name="customRadioInline3" class="custom-control-input" value="cAnswer3">
+                    <label class="custom-control-label" for="customRadioInline11">correct answer</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline12" name="customRadioInline3" class="custom-control-input" value="wrong3">
+                    <label class="custom-control-label" for="customRadioInline12">wrong3</label>
+                </div>
+        <div class="questionFour">
+            <p>Question number four?</p>
+            <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline13" name="customRadioInline4" class="custom-control-input" value="wrong1">
+                    <label class="custom-control-label" for="customRadioInline13">wrong1</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline14" name="customRadioInline4" class="custom-control-input" value="wrong2">
+                    <label class="custom-control-label" for="customRadioInline14">wrong2</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline15" name="customRadioInline4" class="custom-control-input" value="cAnswer4">
+                    <label class="custom-control-label" for="customRadioInline15">correct answer</label>
+                </div>
+                <div class="custom-control custom-radio custom-control-inline">
+                    <input type="radio" id="customRadioInline16" name="customRadioInline4" class="custom-control-input" value="wrong3">
+                    <label class="custom-control-label" for="customRadioInline16">wrong3</label>
+                </div>
+        <div class="questionFive">
+                <p>Question number five?</p>
+                <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline17" name="customRadioInline5" class="custom-control-input" value="wrong1">
+                        <label class="custom-control-label" for="customRadioInline17">wrong1</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline18" name="customRadioInline5" class="custom-control-input" value="cAnswer5">
+                        <label class="custom-control-label" for="customRadioInline18">correct answer</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline19" name="customRadioInline5" class="custom-control-input" value="wrong2">
+                        <label class="custom-control-label" for="customRadioInline19">wrong2</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline20" name="customRadioInline5" class="custom-control-input" value="wrong3">
+                        <label class="custom-control-label" for="customRadioInline20">wrong3</label>
+                    </div>
+            </div>  
+        </div>
+    <br>
+    <button type="button" id="endGame">Done!</button>
+    </div>
+    
+    <div id="score">
+        <p id="correct">Correct Answers: </p>
+        <p id="incorrect">incorrect Answers: </p>
+        <p id="notAnswered">Not Answered: </p>
+    </div>
+
+</body>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+<script type = "text/JavaScript" src = assets\javascript\app.js></script>
+</html>
